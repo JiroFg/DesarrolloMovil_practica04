@@ -1,5 +1,6 @@
 package com.example.practica04
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.practica04.databinding.ActivityHomeBinding
@@ -24,6 +25,11 @@ class HomeActivity : AppCompatActivity() {
         val apodo = prefs.getString(SHARE_APODO, "")
 
         binding.text.setText(name + pass + apodo)
+
+        binding.btnCanciones.setOnClickListener {
+            intent = Intent(this, CancionesActivity::class.java)
+            startActivity(intent)
+        }
     }
 
 }
