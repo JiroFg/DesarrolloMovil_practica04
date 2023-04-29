@@ -4,8 +4,8 @@ import android.provider.BaseColumns
 
 object CancionesContract{
     object FeedEntry : BaseColumns {
-        const val TABLE_NAME = "Cancion"
-        const val COLUMN_NAME_TITLE = "Titulo"
-        const val COLUMN_NAME_ARTIST = "Artista"
+        const val TABLE_NAME = "cancion"
+        const val COLUMN_NAME_TITLE = "titulo"
+        const val COLUMN_NAME_ARTIST = "artista"
     }
 }

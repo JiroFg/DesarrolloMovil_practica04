@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">practica04</string>
+
+    <string-array name="generos">
+        <item>Acción</item>
+        <item>Aventura</item>
+        <item>Ciencia ficción</item>
+        <item>Comedia</item>
+        <item>Documentales</item>
+        <item>Drama</item>
+        <item>Fantasía</item>
+        <item>Musicales</item>
+        <item>Suspenso</item>
+        <item>Romance</item>
+        <item>Terror</item>
+    </string-array>
 </resources>
